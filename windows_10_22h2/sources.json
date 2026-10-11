@@ -1,0 +1,485 @@
+{
+  "windows_release": "Windows 10 22H2",
+  "source_media": {
+    "iso_filename": "Win10_22H2_English_x64v1.iso",
+    "iso_size_bytes": 6140975104,
+    "iso_sha256": "a6f470ca6d331eb353b815c043e327a347f594f37ff525f17764738fe812852e",
+    "wim_path": "sources/install.wim",
+    "wim_image": 1,
+    "wim_image_name": "Windows 10 Home",
+    "architecture": "x86_64",
+    "language": "en-US",
+    "wim_build": 19041,
+    "wim_service_pack_build": 2965,
+    "wim_image_last_modified_utc": "2023-05-05T13:18:27Z"
+  },
+  "paths_relative_to": "repository root",
+  "scope": {
+    "selected_binaries": 18,
+    "included_module_architecture_pairs": 4,
+    "archive_files": 12,
+    "omitted_loader_only_archives": 14,
+    "description": "Only pairs with published structure/class/union definitions are included; this is not a scan of all binaries in the ISO.",
+    "checked_modules": [
+      {
+        "module": "KernelBase.dll",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2913",
+        "publishes_structures": false
+      },
+      {
+        "module": "ci.dll",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2965",
+        "publishes_structures": false
+      },
+      {
+        "module": "hal.dll",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2728",
+        "publishes_structures": false
+      },
+      {
+        "module": "kernel32.dll",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2913",
+        "publishes_structures": false
+      },
+      {
+        "module": "ntdll.dll",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2788",
+        "publishes_structures": true
+      },
+      {
+        "module": "ntoskrnl.exe",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2965",
+        "publishes_structures": true
+      },
+      {
+        "module": "securekernel.exe",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2788",
+        "publishes_structures": false
+      },
+      {
+        "module": "win32k.sys",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2913",
+        "publishes_structures": true
+      },
+      {
+        "module": "win32kbase.sys",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2965",
+        "publishes_structures": false
+      },
+      {
+        "module": "win32kfull.sys",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2913",
+        "publishes_structures": false
+      },
+      {
+        "module": "win32u.dll",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2913",
+        "publishes_structures": false
+      },
+      {
+        "module": "wow64.dll",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2788",
+        "publishes_structures": false
+      },
+      {
+        "module": "wow64cpu.dll",
+        "architecture": "x64",
+        "file_version": "10.0.19041.662",
+        "publishes_structures": false
+      },
+      {
+        "module": "wow64win.dll",
+        "architecture": "x64",
+        "file_version": "10.0.19041.2486",
+        "publishes_structures": false
+      },
+      {
+        "module": "KernelBase.dll",
+        "architecture": "x86",
+        "file_version": "10.0.19041.2965",
+        "publishes_structures": false
+      },
+      {
+        "module": "kernel32.dll",
+        "architecture": "x86",
+        "file_version": "10.0.19041.2913",
+        "publishes_structures": false
+      },
+      {
+        "module": "ntdll.dll",
+        "architecture": "x86",
+        "file_version": "10.0.19041.2965",
+        "publishes_structures": true
+      },
+      {
+        "module": "win32u.dll",
+        "architecture": "x86",
+        "file_version": "10.0.19041.2913",
+        "publishes_structures": false
+      }
+    ]
+  },
+  "modules": [
+    {
+      "module": "ntdll.dll",
+      "architecture": "x64",
+      "binary_version": "10.0.19041.2788",
+      "path_in_windows_image": "Windows/System32/ntdll.dll",
+      "binary_sha256": "fdb2689bffabe7d2e300882ca1c3fc2fe24a998ffcbd5f48795c7d95712d1e98",
+      "pdb": {
+        "filename": "ntdll.pdb",
+        "guid": "76C7BBFD-4198-65CA-3010-8FE0023CF040",
+        "age": 1,
+        "sha256": "a9c5ea0521a3f82c0d5da9738497e81308c0791546c88344dce8d235c484797d",
+        "download_url": "https://msdl.microsoft.com/download/symbols/ntdll.pdb/76C7BBFD419865CA30108FE0023CF0401/ntdll.pdb"
+      },
+      "type_entries": 2484,
+      "archives": [
+        {
+          "ghidra_version": "12.0.4 PUBLIC",
+          "path": "windows_10_22h2/x64/windows_10_22h2_ntdll_dll_x64_ghidra_12.0.4.gdt",
+          "sha256": "e8b748e02b2f19c96b1c8b564b9bba9c809ebc5602a2dc0859fa5bb069cc8c67"
+        },
+        {
+          "ghidra_version": "12.1.4 PUBLIC",
+          "path": "windows_10_22h2/x64/windows_10_22h2_ntdll_dll_x64_ghidra_12.1.4.gdt",
+          "sha256": "6dde3019c4e79017f95e5ddc60ff083d0922910f1073d92c4415f880d8c509d0",
+          "type_entries": 2424
+        },
+        {
+          "ghidra_version": "12.3 DEV",
+          "path": "windows_10_22h2/x64/windows_10_22h2_ntdll_dll_x64_ghidra_12.3.gdt",
+          "sha256": "2018e43c4b1379dc347e087338a2f94157bdf40c73e900d6fdf69e9c345f59fc"
+        }
+      ]
+    },
+    {
+      "module": "ntoskrnl.exe",
+      "architecture": "x64",
+      "binary_version": "10.0.19041.2965",
+      "path_in_windows_image": "Windows/System32/ntoskrnl.exe",
+      "binary_sha256": "eace65a06bab6b67461ed29783cde9367c3ddd2a31b2594c59d22d77460d4f4b",
+      "pdb": {
+        "filename": "ntkrnlmp.pdb",
+        "guid": "89284D0C-A6AC-C827-4B9A-44BD5AF9290B",
+        "age": 1,
+        "sha256": "f55fb264ac31f92a86d159e72ea8053a5df3f646b1287c10f37f4638f8ec2170",
+        "download_url": "https://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/89284D0CA6ACC8274B9A44BD5AF9290B1/ntkrnlmp.pdb"
+      },
+      "type_entries": 6014,
+      "archives": [
+        {
+          "ghidra_version": "12.0.4 PUBLIC",
+          "path": "windows_10_22h2/x64/windows_10_22h2_ntoskrnl_exe_x64_ghidra_12.0.4.gdt",
+          "sha256": "b91b77aa76141251556924bcd084e65b4fbefbea1c371ba4b38175fa5ed5994e"
+        },
+        {
+          "ghidra_version": "12.1.4 PUBLIC",
+          "path": "windows_10_22h2/x64/windows_10_22h2_ntoskrnl_exe_x64_ghidra_12.1.4.gdt",
+          "sha256": "da616e84c4ff5b60353298f58d260b61033bd1a2d05f56578b34e90eab1c602a",
+          "type_entries": 5955
+        },
+        {
+          "ghidra_version": "12.3 DEV",
+          "path": "windows_10_22h2/x64/windows_10_22h2_ntoskrnl_exe_x64_ghidra_12.3.gdt",
+          "sha256": "0f5d2948eef0acdede424e480f4b76ed4ab7aaea42e016c12ab42913d84c70bd"
+        }
+      ]
+    },
+    {
+      "module": "win32k.sys",
+      "architecture": "x64",
+      "binary_version": "10.0.19041.2913",
+      "path_in_windows_image": "Windows/System32/win32k.sys",
+      "binary_sha256": "c6a20935a411c6113cac596c677475eb99c98f299533ec2aedd7b0aca18d1892",
+      "pdb": {
+        "filename": "win32k.pdb",
+        "guid": "79DD5C76-CFB0-1D2A-A462-91496497A0FB",
+        "age": 1,
+        "sha256": "4567eb114aca771116581d242f0ac18016824e55281e05714d4db45322c93704",
+        "download_url": "https://msdl.microsoft.com/download/symbols/win32k.pdb/79DD5C76CFB01D2AA46291496497A0FB1/win32k.pdb"
+      },
+      "type_entries": 1747,
+      "archives": [
+        {
+          "ghidra_version": "12.0.4 PUBLIC",
+          "path": "windows_10_22h2/x64/windows_10_22h2_win32k_sys_x64_ghidra_12.0.4.gdt",
+          "sha256": "67e49c38502efbf457d98b02869a6b0231ca8ad00003a1fa5c10b99d83705d2e"
+        },
+        {
+          "ghidra_version": "12.1.4 PUBLIC",
+          "path": "windows_10_22h2/x64/windows_10_22h2_win32k_sys_x64_ghidra_12.1.4.gdt",
+          "sha256": "3bce54a38e78e43b8ed885a14dfff0a842786e5c5af8eb0d1168f22b2abc9d92",
+          "type_entries": 1690
+        },
+        {
+          "ghidra_version": "12.3 DEV",
+          "path": "windows_10_22h2/x64/windows_10_22h2_win32k_sys_x64_ghidra_12.3.gdt",
+          "sha256": "3a1f9f1491ab6ab79212a3c76288b53a12a22ca73bccd9fe9bdbde5406953c4e"
+        }
+      ]
+    },
+    {
+      "module": "ntdll.dll",
+      "architecture": "x86",
+      "binary_version": "10.0.19041.2965",
+      "path_in_windows_image": "Windows/SysWOW64/ntdll.dll",
+      "binary_sha256": "352d9f7ed7f0d463aeb21597d6cf1492df34f622027a853a6e861c54434e6caa",
+      "pdb": {
+        "filename": "wntdll.pdb",
+        "guid": "7C215E43-AA97-4FFF-5C17-3AB29D5A5EFB",
+        "age": 1,
+        "sha256": "381906ef44b411c01335d9db3717bb5765413ff51754babc55a9622532ee0357",
+        "download_url": "https://msdl.microsoft.com/download/symbols/wntdll.pdb/7C215E43AA974FFF5C173AB29D5A5EFB1/wntdll.pdb"
+      },
+      "type_entries": 2360,
+      "archives": [
+        {
+          "ghidra_version": "12.0.4 PUBLIC",
+          "path": "windows_10_22h2/x86/windows_10_22h2_ntdll_dll_x86_ghidra_12.0.4.gdt",
+          "sha256": "ae746565c15b843b4903937c8c3ee1b12d98a8e732e5d538018f7c3aec93300a"
+        },
+        {
+          "ghidra_version": "12.1.4 PUBLIC",
+          "path": "windows_10_22h2/x86/windows_10_22h2_ntdll_dll_x86_ghidra_12.1.4.gdt",
+          "sha256": "849d63d2e3796e3d5cb3b2cbeb95563682c6af1ccc6adca4ba1486ff0320a673",
+          "type_entries": 2304
+        },
+        {
+          "ghidra_version": "12.3 DEV",
+          "path": "windows_10_22h2/x86/windows_10_22h2_ntdll_dll_x86_ghidra_12.3.gdt",
+          "sha256": "563808e086e1f8655eb22d28002cb8eb0decb2be49053dad1394770b1d613a82"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "origin": "Recorded creation-time audits from the original preparation workspace and versioned headless PDB exports.",
+    "scope": "Named C-style aggregate definitions, member offsets, and bitfields compared with LLVM PDB type dumps. Anonymous and C++-qualified names were excluded from that independent comparison but included in the Ghidra export/reopen comparison.",
+    "profiles": {
+      "ghidra_12.0.4": [
+        {
+          "module": "ntdll.dll",
+          "architecture": "x64",
+          "types_checked": 494,
+          "fields_checked": 5645,
+          "bitfields_checked": 820,
+          "failures": []
+        },
+        {
+          "module": "ntoskrnl.exe",
+          "architecture": "x64",
+          "types_checked": 1400,
+          "fields_checked": 13860,
+          "bitfields_checked": 1840,
+          "failures": []
+        },
+        {
+          "module": "win32k.sys",
+          "architecture": "x64",
+          "types_checked": 253,
+          "fields_checked": 2183,
+          "bitfields_checked": 304,
+          "failures": []
+        },
+        {
+          "module": "ntdll.dll",
+          "architecture": "x86",
+          "types_checked": 485,
+          "fields_checked": 5421,
+          "bitfields_checked": 787,
+          "failures": []
+        }
+      ],
+      "ghidra_12.3": [
+        {
+          "module": "ntdll.dll",
+          "architecture": "x64",
+          "types_checked": 494,
+          "fields_checked": 5645,
+          "bitfields_checked": 820,
+          "failures": []
+        },
+        {
+          "module": "ntoskrnl.exe",
+          "architecture": "x64",
+          "types_checked": 1400,
+          "fields_checked": 13860,
+          "bitfields_checked": 1840,
+          "failures": []
+        },
+        {
+          "module": "win32k.sys",
+          "architecture": "x64",
+          "types_checked": 253,
+          "fields_checked": 2183,
+          "bitfields_checked": 304,
+          "failures": []
+        },
+        {
+          "module": "ntdll.dll",
+          "architecture": "x86",
+          "types_checked": 485,
+          "fields_checked": 5421,
+          "bitfields_checked": 787,
+          "failures": []
+        }
+      ],
+      "ghidra_12.1.4": [
+        {
+          "module": "ntdll.dll",
+          "architecture": "x64",
+          "coverage": "LLVM: named C-style struct/class/union sizes, member byte offsets and bitfields. Anonymous and C++-qualified names are excluded. Ghidra separately checks all exported types and dependencies when reopening each archive.",
+          "aggregate_definitions": 596,
+          "excluded_aggregates": 102,
+          "types_checked": 494,
+          "fields_checked": 5645,
+          "bitfields_checked": 820,
+          "failures": [],
+          "ghidra": {
+            "module": "ntdll.dll",
+            "architecture": "x64",
+            "language": "x86:LE:64:default",
+            "compiler": "windows",
+            "pointer_size": 8,
+            "packing_corrections": 0,
+            "types_reopened": 2424,
+            "pointers_checked": 711,
+            "aggregates_exported": 1073
+          }
+        },
+        {
+          "module": "ntoskrnl.exe",
+          "architecture": "x64",
+          "coverage": "LLVM: named C-style struct/class/union sizes, member byte offsets and bitfields. Anonymous and C++-qualified names are excluded. Ghidra separately checks all exported types and dependencies when reopening each archive.",
+          "aggregate_definitions": 1660,
+          "excluded_aggregates": 260,
+          "types_checked": 1400,
+          "fields_checked": 13860,
+          "bitfields_checked": 1840,
+          "failures": [],
+          "ghidra": {
+            "module": "ntoskrnl.exe",
+            "architecture": "x64",
+            "language": "x86:LE:64:default",
+            "compiler": "windows",
+            "pointer_size": 8,
+            "packing_corrections": 4,
+            "types_reopened": 5955,
+            "pointers_checked": 1940,
+            "aggregates_exported": 2392
+          }
+        },
+        {
+          "module": "win32k.sys",
+          "architecture": "x64",
+          "coverage": "LLVM: named C-style struct/class/union sizes, member byte offsets and bitfields. Anonymous and C++-qualified names are excluded. Ghidra separately checks all exported types and dependencies when reopening each archive.",
+          "aggregate_definitions": 503,
+          "excluded_aggregates": 250,
+          "types_checked": 253,
+          "fields_checked": 2183,
+          "bitfields_checked": 304,
+          "failures": [],
+          "ghidra": {
+            "module": "win32k.sys",
+            "architecture": "x64",
+            "language": "x86:LE:64:default",
+            "compiler": "windows",
+            "pointer_size": 8,
+            "packing_corrections": 0,
+            "types_reopened": 1690,
+            "pointers_checked": 402,
+            "aggregates_exported": 734
+          }
+        },
+        {
+          "module": "ntdll.dll",
+          "architecture": "x86",
+          "coverage": "LLVM: named C-style struct/class/union sizes, member byte offsets and bitfields. Anonymous and C++-qualified names are excluded. Ghidra separately checks all exported types and dependencies when reopening each archive.",
+          "aggregate_definitions": 591,
+          "excluded_aggregates": 106,
+          "types_checked": 485,
+          "fields_checked": 5421,
+          "bitfields_checked": 787,
+          "failures": [],
+          "ghidra": {
+            "module": "ntdll.dll",
+            "architecture": "x86",
+            "language": "x86:LE:32:default",
+            "compiler": "windows",
+            "pointer_size": 4,
+            "packing_corrections": 0,
+            "types_reopened": 2304,
+            "pointers_checked": 685,
+            "aggregates_exported": 1011
+          }
+        }
+      ]
+    }
+  },
+  "packing_corrections": {
+    "/ntkrnlmp.pdb/_DBGKD_ANY_CONTROL_SET": 28,
+    "/ntkrnlmp.pdb/_DBGKD_ANY_CONTROL_SET/_DBGKD_ANY_CONTROL_SET_u_0": 28,
+    "/ntkrnlmp.pdb/_DBGKD_CONTINUE2": 32,
+    "/ntkrnlmp.pdb/_DBGKD_CONTINUE2/_DBGKD_CONTINUE2_u_4": 28
+  },
+  "preparation_scripts": [
+    "prepare_native_symbols.py",
+    "ExportWindowsNativeTypes.java",
+    "AuditWindowsArchive.java",
+    "verify_native_layouts.py",
+    "FixWindowsSymbolPacking.java",
+    "UpgradeWindowsArchives.java"
+  ],
+  "ghidra": {
+    "original_export": {
+      "version": "12.0.4 PUBLIC"
+    },
+    "development_archive_upgrade": {
+      "version": "12.3 DEV",
+      "upstream_repository": "https://github.com/NationalSecurityAgency/ghidra",
+      "upstream_commit": "a462673d2f1543d153c61d10bcd6c68f85555194",
+      "upstream_commit_url": "https://github.com/NationalSecurityAgency/ghidra/commit/a462673d2f1543d153c61d10bcd6c68f85555194",
+      "revision_source": "application.revision.ghidra in the preparation build Ghidra/application.properties",
+      "build_date": "2026-Oct-02 0138 CEST"
+    },
+    "release_export": {
+      "version": "12.1.4 PUBLIC",
+      "fingerprint": "0933a3709a6a8825b1c37a62f98e1e9a6fea7f5546fc88ce427d99a97720af47",
+      "fingerprint_files": 1056,
+      "metadata": {
+        "application.build.date": "2026-Sep-21 1613 UTC",
+        "application.build.date.short": "20260921",
+        "application.gradle.max": "",
+        "application.gradle.min": "8.5",
+        "application.java.compiler": "21",
+        "application.java.max": "",
+        "application.java.min": "21",
+        "application.layout.version": "3",
+        "application.name": "Ghidra",
+        "application.python.supported": "3.14, 3.13, 3.12, 3.11, 3.10, 3.9",
+        "application.release.marking": "",
+        "application.release.name": "PUBLIC",
+        "application.revision.ghidra": "8b6bbb857accdfa20dc5b2f5dea471178c2e9fbc",
+        "application.revision.ghidra.bin": "788632a845aed8079296b685132a565069102348",
+        "application.revision.ghidra.ext-u": "ff2fbadb140bf28b07ba2d337e4bc597204a97ac",
+        "application.version": "12.1.4"
+      },
+      "created_utc": "2026-10-11T21:48:14.473286+00:00",
+      "set_id": "464c14b77e4ac533",
+      "method": "Headless Data Types Only export from the recorded PDBs using build.py and scripts/ExportPdbTypes.java."
+    }
+  }
+}
